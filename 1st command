@@ -1,7 +1,6 @@
 Command : "ifconfig" : That describe the network configuartion of all the network .
 That can be show our IP4, IPV6 address that is the main thing to our network that need for use the internet .
-Also it gives us the subnet mask, mac address and default gateway which things are very important in networking 
+Also it gives us the subnet mask and default gateway which things are very important in networking 
   Subnet Mask : This thing is use for split the IP address 2 parts ,which are network part and host part.This will be 255.255.255.0 for every network.
-  MAC address : It is the physical permanent 12 digit codes burned into the network by the makers and this work is : to lacate your device in the local network.
   Default gateway : It is the router IP address used to reach outside networks or the internet. That handels the data that need to travel outside of the local network or in the internet.
   
