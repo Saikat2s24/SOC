@@ -3,3 +3,4 @@ From this we can trace the way data packets that was take to my computer to the 
  The usses :
 1.Shows where network slowdowns or high latencies occur along the route.
 2.Pinpoints specific routers where data packets are dropped or fail to respond.
+3. Helps see if traffic takes an inefficient or incorrect path to reach a destination.
