@@ -1,2 +1,5 @@
 This is a tool use for network diagnostic.
 From this we can trace the way data packets that was take to my computer to the destination IP address.
+ The usses :
+1.Shows where network slowdowns or high latencies occur along the route.
+2.
