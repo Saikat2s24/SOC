@@ -1,2 +1,2 @@
 Use of "netstart-ano" command :
-
+A troubleshooting tool used in Windows Command Prompt and PowerShell to display all active network connections and listening ports, along with their unique Process IDs (PIDs)
