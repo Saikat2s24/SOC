@@ -1,2 +1,4 @@
 for ubontu the command is : /var/auth/auth.log from this we can see the authentication ;og files details.
 /var/auth/secure this thing is used in ret hat , this distribution is usd for security and authentication logs .
+anothe command /var/auth/syslog ti scommand use for checking all the event done on the system (network,authentication,boot,hardware) means all the things that are very small to work or a thing that is like a threat both the things are discovered by this command.
+
