@@ -2,3 +2,6 @@ Question: check on your system that any brute force attcak happens or not ?
 Ans: We check this thing through the event viewer in windows ,
 Atfirst check for 4625 event id from this we can know about the failed logon types, is there is not showing too much failed lgon from an IP in short time duration it means this maybe a brute force attack, after this going to the details section and see the logon type if the logon type is 3 or 10 that means they are automated by this we can say clearly that is a brute force attack.
 After the 1st process also check the 4740 event id that shows that our system is locked anytime for multiple failed request if it shows that also means that maybe brute force attack done on my system .
+
+
+I will upload also my account logs but there donot shows any brute force. Check the image there was not showing multiple failed log on at a time , this failed logon shows for input the wrong password it may comes it normally but if this is done multiple times in a short time spand it can be a denger for our system.
