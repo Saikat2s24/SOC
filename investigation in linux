@@ -1,2 +1,9 @@
 Question : Are there repeated failed SSH logins?
 Ans : Yes also for linux we have the command "auth.log" this command shows all the thing that do on the linux system .
+If there occurs many time failed log then we investigate this and  the process is :
+1st : Grab the bad : this grab the the failes logon in a unique way it will scan all the logsa and through away the files wich hav not the "Failed password".
+2nd :Pull the IP address : It cut the date,time ,server name and all the things except the IP address, from that we find the list of the IP addresses .
+3rd:Count and group : It will use the IP addresses list and check which IP occurs multiple time.
+
+
+That's how we find the repeated failed SSH logins.
