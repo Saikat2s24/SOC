@@ -1,2 +1,2 @@
 Question : Are there repeated failed SSH logins?
-
+Ans : Yes also for linux we have the command "auth.log" this command shows all the thing that do on the linux system .
