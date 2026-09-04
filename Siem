@@ -1,1 +1,2 @@
 How SIEM works :
+log -> Collection -> Normalization -> Correlation -> Detection -> Alert
