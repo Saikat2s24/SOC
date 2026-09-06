@@ -1,1 +1,3 @@
 index=main: Looks inside the main data bucket.
+stats count by src_ip: Counts how many times each source IP appears and groups the results by each unique IP.
+sort "-count": Orders the list from the highest count to the lowest count.
