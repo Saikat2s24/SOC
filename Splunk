@@ -1,3 +1,7 @@
 This is a software that use for searches, monitors ans anslyzes machine generated big data via a webstyle interface.
 Mainly it is use for view the total system fully in the system what kind of things done and when that occurs to identify the risk .
 Core splunk concepts are : Index, Source , Source type , Host, Feilds, Events, Search.
+
+
+I make a file with some logs and in those logs also a log have a treat and 4 have the failed logon thing thats make them malicious when i detect .
+Then I open the file on the spunk and in the serach option i put the command :"index=* sourcetype=soc:login" then show all the login details in this that shows on the "Splunk 1st detction".
