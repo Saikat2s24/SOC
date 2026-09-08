@@ -25,19 +25,15 @@ I design these rules using **Scheduled Query Alerts** or **NRT (Near-Real-Time)*
 **Alert Thresholds:** Tweaked to fire alerts only when anomalies cross a specific statistical threshold (reducing alert fatigue).
 **Entity Mapping:** Maps raw data fields (like `IPAddress`, `Account`, `Host`) directly to Azure Sentinel Entities, allowing automated investigation and account isolation.
 
-## 📊 3. Incidents & Analytics
+ 3. Incidents & Analytics
 Once an Analytics Rule fires, it generates an **Incident**. This is the operational ticket my SOC uses to triage, investigate, and remediate threats.
 
-*   **Evidence Collection:** The incident automatically groups related alerts together so analysts have the full scope of an attack storyline.
-*   **Automation (Playbooks):** Integrated with Logic Apps to automatically isolate compromised hosts or reset user credentials the moment an incident is generated.
-*   **Severity Mapping:** Rules are tiered (Informational, Low, Medium, High) based on asset criticality and potential business impact.
-
----
-
-## 📉 4. Workbooks (Dashboards & Visualizations)
+**Evidence Collection:** The incident automatically groups related alerts together so analysts have the full scope of an attack storyline.
+**Automation (Playbooks):** Integrated with Logic Apps to automatically isolate compromised hosts or reset user credentials the moment an incident is generated.
+**Severity Mapping:** Rules are tiered (Informational, Low, Medium, High) based on asset criticality and potential business impact.
+ 4. Workbooks (Dashboards & Visualizations)
 Workbooks combine text, KQL queries, and metrics into interactive visual insights. I build these to give leadership and SOC analysts real-time visibility into our cloud environment.
-
-*   **Incident Triage Dashboards:** Tracks active incidents, mean-time-to-resolution (MTTR), and analyst ownership.
-*   **Data Connector Health:** Monitors ingestion volume across log sources and alerts us if a critical log source (like firewalls or EDR) stops sending data.
-*   **Threat Intelligence Overlays:** Cross-references active logs with known malicious indicators of compromise (IOCs).
+**Incident Triage Dashboards:** Tracks active incidents, mean-time-to-resolution (MTTR), and analyst ownership.
+**Data Connector Health:** Monitors ingestion volume across log sources and alerts us if a critical log source (like firewalls or EDR) stops sending data.
+**Threat Intelligence Overlays:** Cross-references active logs with known malicious indicators of compromise (IOCs).
 
