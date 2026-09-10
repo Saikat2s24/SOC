@@ -1,0 +1,7 @@
+"ping" this command is use for checking any website is online or not , it send some small packets to the given website and if all the packets are comming back its mean the web is online.
+now give a example of this "ping google.com" by this we can know that google server is ready for give us respond or not means it active or not.
+working procrdure :
+1. By DNS the computer translate the name to the IP address of this web.
+2. It sends some small ICMP packets to the given web .
+3. It waits for the respond of the google server and by measuring this it gives us the time taken(milisecond)
+4. It also checks that any packet is missing or not at the time of respond , if missing it meand the connection is poor.

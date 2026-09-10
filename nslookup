@@ -1,0 +1,4 @@
+The command is primarily used for Domain Name System (DNS) diagnostics ,network troubleshooting, and domain management.
+It allows system administrators, network engineers, and website owners to query DNS servers to retrieve specific domain records and IP addresses.
+Also with the modified nslookup command we can know about any website DNS related things.
+We can know about A/AAAA record,MX(Mail Exchange), NS(name server), CNAME and TX/SPF records ,those things are very useful thing of a web.

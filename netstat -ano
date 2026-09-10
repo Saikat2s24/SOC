@@ -1,0 +1,3 @@
+Use of "netstat -ano" command :
+A troubleshooting tool used in Windows Command Prompt and PowerShell to display all active network connections and listening ports, along with their unique Process IDs (PIDs)
+It's main use to detect which network port is use by which software or background service.

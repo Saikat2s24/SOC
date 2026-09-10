@@ -1,0 +1,6 @@
+This is the most important thing in SOC.
+This devide the alerts according to their priority to cause harm(means if they execute how much harm causes).
+1. Critical alert: Automate isolation and tier-3 engineer ticket, notify via SMS/pagerduty. Example : Ransomeware activity deletected.
+2. High alert : Instant tier-1 engineer ticket, notify via slock/teams alert. Example : Brute force attack.
+3. Medium alert : Added to analyst active queue , notify via email ticket. Example : Unauthorized USB drive inserted.
+4. Low alerts : Logged for mothly audits ,notify on the dashboard . Example :Routine system configuration change 

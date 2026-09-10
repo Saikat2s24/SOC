@@ -1,0 +1,39 @@
+#  Microsoft Sentinel & Log Analytics Components
+
+This section contains my custom-built detection engineering artifacts, dashboards, and analytical queries designed for Microsoft Sentinel and Azure Log Analytics. It showcases how I translate threat intelligence into actionable SIEM detections, visualizations, and alert structures.
+##  1. KQL (Kusto Query Language) Detections
+KQL is the backbone of Azure Log Analytics and Sentinel. I use it to hunt for threats, parse raw logs, and build logic for alerts.
+
+**Threat Hunting & Parsing:** Used to sift through massive datasets (e.g., `DeviceEvents`, `SigninLogs`, `Syslog`) to baseline anomalies.
+**Functions (Stored Queries):** Created reusable KQL code segments that act as virtual tables to simplify complex analytics queries.
+
+ Example KQL Hunt: Suspicious PowerShell Execution
+```kql
+// Detects encoded or hidden PowerShell commands often used by attackers to bypass execution policies
+DeviceProcessEvents
+| where ProcessCommandLine has_any ("-enc", "-encodedcommand", "-w hidden", "-windowstyle hidden")
+| project TimeGenerated, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName
+| top 100 by TimeGenerated desc
+```
+ 2. Analytics Rules (Detection Logic)
+Analytics Rules turn standard KQL queries into automated alerts. When the query logic matches log criteria, Sentinel automatically creates an alert or escalates it to an incident.
+
+I design these rules using **Scheduled Query Alerts** or **NRT (Near-Real-Time)** logic, mapping them strictly to the **MITRE ATT&CK Framework**.
+
+ Anatomy of my Analytics Rules:
+**Query Scheduling:** Configured to run every $X$ minutes/hours looking back at a specific window of time.
+**Alert Thresholds:** Tweaked to fire alerts only when anomalies cross a specific statistical threshold (reducing alert fatigue).
+**Entity Mapping:** Maps raw data fields (like `IPAddress`, `Account`, `Host`) directly to Azure Sentinel Entities, allowing automated investigation and account isolation.
+
+ 3. Incidents & Analytics
+Once an Analytics Rule fires, it generates an **Incident**. This is the operational ticket my SOC uses to triage, investigate, and remediate threats.
+
+**Evidence Collection:** The incident automatically groups related alerts together so analysts have the full scope of an attack storyline.
+**Automation (Playbooks):** Integrated with Logic Apps to automatically isolate compromised hosts or reset user credentials the moment an incident is generated.
+**Severity Mapping:** Rules are tiered (Informational, Low, Medium, High) based on asset criticality and potential business impact.
+ 4. Workbooks (Dashboards & Visualizations)
+Workbooks combine text, KQL queries, and metrics into interactive visual insights. I build these to give leadership and SOC analysts real-time visibility into our cloud environment.
+**Incident Triage Dashboards:** Tracks active incidents, mean-time-to-resolution (MTTR), and analyst ownership.
+**Data Connector Health:** Monitors ingestion volume across log sources and alerts us if a critical log source (like firewalls or EDR) stops sending data.
+**Threat Intelligence Overlays:** Cross-references active logs with known malicious indicators of compromise (IOCs).
+
