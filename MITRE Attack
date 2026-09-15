@@ -2,8 +2,9 @@ This is the platform to use the mapping the an attack.
 In this many type of content available on this by this also a attacker can plan thir atttack also the defender can investigate the attack from the similar attack.
 Mainly the things that can check by a defender is :
 The type of the attack and the id of this because of further investigation by the id they can understand the problem that occurs.
-Example : 1.  Phishing : T1566 (The attack is perform for the intial access)
-2.PowerShell :  T1059.001       
-3.Credential Dumping :  T1003
-4.RDP (Remote Desktop Protocol) :  T1021.001
+Example : 1. 
+Phishing : T1566 (The attack is perform for the intial access)
+2.PowerShell :  T1059.001 (For execution)      
+3.Credential Dumping :  T1003 (For credential access) 
+4.RDP (Remote Desktop Protocol) :  T1021.001 (For lateral moment)
  etc many more things on this .
