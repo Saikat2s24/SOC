@@ -6,3 +6,6 @@ Security systems evaluate domain age, reputation, and typosquatting safety (e.g.
 
 3. Attachment: Any file (like a PDF, Word document, or ZIP file) appended to the email. 
 Because attachments can carry malware, they are heavily scanned by email gateways.
+
+4. Hash: A unique, fixed-length digital fingerprint of a file or piece of data (calculated using algorithms like SHA-256 or MD5).
+Security tools use hashes to instantly identify known malicious attachments without needing to read the entire file.
