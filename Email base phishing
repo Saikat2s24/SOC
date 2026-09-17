@@ -1,1 +1,8 @@
+1. URL (Uniform Resource Locator): A web address embedded within the body or links of an email.
+Security filters scan these to ensure they do not point to known malicious or credential-harvesting websites.
 
+2. Domain: The core web identity (e.g., example.com) found in email addresses and URLs.
+Security systems evaluate domain age, reputation, and typosquatting safety (e.g., checking if examp1e.com is trying to mimic example.com).
+
+3. Attachment: Any file (like a PDF, Word document, or ZIP file) appended to the email. 
+Because attachments can carry malware, they are heavily scanned by email gateways.
