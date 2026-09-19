@@ -1,13 +1,22 @@
-Sending address: spam-request@z1.example.com 
+I borrow a file from internet and investigate on this and the things i know about this is documented under this .
 
-Subject line :MEDIA: spamNEWS
 
-Recipents(unless they're in BCC):
 
-7Date + Time : Sat, 5 Oct 2002  & 17:22:56
+## Sending address: spam-request@z1.example.com 
 
-Sending server IP:127.0.0.1
-Replty to address: zzzzz@z1.example.com
+## Subject line :MEDIA: spamNEWS
+
+## Recipents(unless they're in BCC):
+
+## 7Date + Time : Sat, 5 Oct 2002  & 17:22:56
+
+## Sending server IP:127.0.0.1
+## Replty to address: zzzzz@z1.example.com
 The full URL :http://spamNEWS.com ,  <http://www.habeas.com/report/> ,  http://survey.whitehat.com/predirect.php?c=6687 , <http://click.wh5.com/redirect.php?c=8495&u=lXoyuP..CahrNet_0bkttg>
 and also there were too much links in http form so may be they can harmful.
-The root domain:
+## The root domain:
+
+
+
+
+here also i upload some screen short for showing that I do all the things clearly and after investigation i can call this email as a spam email 
