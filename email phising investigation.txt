@@ -20,3 +20,4 @@ and also there were too much links in http form so may be they can harmful.
 
 
 here also i upload some screen short for showing that I do all the things clearly and after investigation i can call this email as a spam email 
+Also i investigate the last IP(this i take from "nslookup" after putting the web name on the "nslookup" then i found the Ip and see that there are nothing malicious or harmful )
