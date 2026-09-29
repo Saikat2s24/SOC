@@ -2,3 +2,7 @@
 that things are most important that we can know with the help of IP.
 
 2.http(hyper text transfer protocol): The thing that need in this is: (Get,POST),URL,responce status code(like : 200 ok, 301 redirect).
+
+3.TLS(transfer level security ):That display handshake level stages (like the conversation between the server and the client(SYN,ACK) ).
+
+4.
