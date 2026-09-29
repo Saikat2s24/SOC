@@ -1,1 +1,2 @@
-
+IP(internet protocol):The main thing in this that we can show on the Wireshark is : ip.src(source ip),ip.dst(destination ip),TTL(time to live )
+that things are most important that we can know with the help of IP.
