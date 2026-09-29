@@ -1,12 +1,1 @@
-1.IP(internet protocol):The main thing in this that we can show on the Wireshark is : ip.src(source ip),ip.dst(destination ip),TTL(time to live )
-that things are most important that we can know with the help of IP.
 
-2.http(hyper text transfer protocol): The thing that need in this is: (Get,POST),URL,responce status code(like : 200 ok, 301 redirect).
-
-3.TLS(transfer level security ):That display handshake level stages (like the conversation between the server and the client(SYN,ACK) ).
-
-4.UDP(User datagram protocol):This is highlight by the wireshark in light blue colour.Here only we can investigate about the src and dst no state flag geenrate because of this is focus only the speed of transfer rathee than the security of the message.
-
-5.TCP(Transmission control protocol):Highlight by the gren by default this shows the sequemce number , the flags (SYN,ACK,FIN,RST), port number.
-
-6.DNS(Domain name server ):Highlight by the pale purplr in colour by default and shows the UDP port 53,query names (dns.qry.name) and resolved answers.
