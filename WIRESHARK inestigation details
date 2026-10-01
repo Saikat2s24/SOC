@@ -1,1 +1,10 @@
+Line no 5,6,7 describe the "3 way handshake" that build the communication between Source and Destination, if this is under TCP.
+(Mainly this is done for build the communiction before the packets sharing)
 
+Line no 11,12,13,14 refers the ending of the conversation between Source and Destination this done by "4 way handshake" . 
+(After this any file cannot bee shared this is the end of the conversation).
+
+I can't access the google because i call this on http but google does not run on http this is run on the htttps.
+I call this through the curl command and by default through curl command all the web are run on http.
+
+Also in the investigation screenshort there shows a "HTTP 1.1" this refers this is running on the http but if the code was 2.0 then it becomes the htttps .
