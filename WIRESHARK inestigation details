@@ -8,3 +8,7 @@ I can't access the google because i call this on http but google does not run on
 I call this through the curl command and by default through curl command all the web are run on http.
 
 Also in the investigation screenshort there shows a "HTTP 1.1" this refers this is running on the http but if the code was 2.0 then it becomes the htttps .
+
+
+The difference between http and https is : in the http the message is not encrypted anyone can see this at the time of sending 
+but in the https the message is encrypted means at the time of sending the message the messsge is not wriiten in the plain text it becomes in the cypher text that's called encryption.
