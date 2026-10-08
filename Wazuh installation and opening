@@ -2,3 +2,4 @@ Through wazuh we can detect the threat and this is a open source very reliable p
 By this we can get a overview with diagram.
 The process need to installation is at first it include in your virtual machine after this through commands you can set a ip addess or rather than by the ip address of the ethernet we can access the web overview of this 
 for getting the web overview we search the "htttps://<ip address>" through this we can access the wazuh web , here we give the https in the place of http because wazuh enterprice give the tls for this reason we write https .
+in network addapter we use nat for accessing in the (ip which is generate in vm ware) web 
